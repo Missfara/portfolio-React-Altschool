@@ -147,3 +147,13 @@ h2 {
 .flex {
   display: inline;
 }
+
+.flx{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.log{
+  width: 48%;
+  height: 33vh;
+}

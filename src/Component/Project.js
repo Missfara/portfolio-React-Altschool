@@ -5,10 +5,12 @@ let Project = () => {
     <div id="project">
       <div>
         <h2> MY PROJECTS </h2>
+
         <p className="para">Just click on the links to view them</p>
-        <div>
+
+        <div className="flx">
           <p className="flex">
-            <img src="pro1.jpeg" className="logo" alt="log1" />
+            <img src="pro1.jpeg" className="logo  log" alt="log1" />
             <a
               href="http://zurislideshow.vercel.app/"
               target="self"
@@ -18,7 +20,7 @@ let Project = () => {
             </a>
           </p>
           <p className="flex">
-            <img src="pro2.jpeg" className="logo" alt="log1" />
+            <img src="pro2.jpeg" className="logo  log" alt="log1" />
             <a
               href="http://counter-app-missfara.vercel.app/"
               target="self"
@@ -28,7 +30,7 @@ let Project = () => {
             </a>
           </p>
           <p className="flex ">
-            <img src="pro3.jpeg" className="logo" alt="log1" />
+            <img src="pro3.jpeg" className="logo  log" alt="log1" />
             <a
               href="http://random-users-one.vercel.app/"
               target="self"
@@ -38,7 +40,7 @@ let Project = () => {
             </a>
           </p>
           <p className="flex">
-            <img src="pro4.jpeg" className="logo  logo2" alt="log1" />
+            <img src="pro4.jpeg" className="logo  log" alt="log1" />
             <a
               href="https://react-calculator-missfara.vercel.app/"
               target="self"
@@ -48,13 +50,13 @@ let Project = () => {
             </a>
           </p>
           <p className="flex">
-            <img src="pro5.jpeg" className="logo" alt="log1" />
+            <img src="pro5.jpeg" className="logo  log" alt="log1" />
             <a
               href="http://new-folder-project-solar.vercel.app/"
               target=""
               className="block"
             >
-              I build a solar planet project to calculate weight in them using
+              I build a solar planet project to calculate weight using
               Html, Css and Javascript
             </a>
           </p>
